@@ -36,7 +36,7 @@ provider:
     PRODUCTS_TABLE_NAME: ${self:custom.productsTableName}
 
 package:
-  artifact: 'target/${self:service}-${self:provider.stage}.jar'
+  artifact: 'target/service.jar'
 
 functions:
   listProducts:
